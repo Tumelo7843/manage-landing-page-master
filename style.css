@@ -1,0 +1,378 @@
+body {
+
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+}
+.backi-img{
+ background-image: url(./images/bg-tablet-pattern.svg);
+ background-repeat: repeat-y;
+ background-position-x: 72rem;
+ background-position-y:-18rem ;
+ background-repeat: no-repeat;
+}
+.back-image{
+    background-image: url(./images/bg-tablet-pattern.svg);
+ background-repeat: no-repeat;
+ background-position-x: -27rem;
+ background-position-y:13rem ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    align-items: baseline;
+}
+
+nav .links ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    list-style: none;
+}
+
+nav .links ul a {
+    text-decoration: none;
+    color: hsl(233, 12%, 13%);
+    font-weight: 400;
+}
+
+nav .links ul li :hover {
+    cursor: pointer;
+    color: hsl(0, 18%, 84%);
+}
+
+nav button {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 40px;
+    border: none;
+}
+
+h1 {
+    color: hsl(228, 39%, 23%);
+}
+
+p {
+    color: gainsboro;
+    font-weight: 400;
+}
+
+p b {
+    color: hsl(228, 39%, 23%);
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-1 button {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 40px;
+    border: none;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list ul li {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.numb {
+    background-color: hsl(12, 88%, 59%);
+    padding: 5px 10px;
+    border-radius: 40px;
+    color: white;
+    height: 1.5rem;
+}
+
+.what {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 15px;
+
+}
+
+.testimonials h1 {
+    cursor: pointer;
+}
+
+.avatar .info {
+    display: grid;
+    background-color: hsl(0, 0%, 98%);
+    height: 9rem;
+    padding: 6%;
+}
+
+.avatar img {
+    height: 80px;
+}
+
+.slid {
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    align-items: center;
+}
+
+.get-started {
+    text-align: center;
+
+}
+
+.get-started button {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+
+
+}
+
+.section-3 {
+    background-image: url(./images/bg-simplify-section-desktop.svg);
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    align-items: center;
+    height: 14rem;
+}
+
+.section-3 button {
+    background-color: white;
+    color: hsl(12, 88%, 59%);
+    padding: 15px 25px;
+    border-radius: 40px;
+    border: none;
+}
+
+footer {
+    align-items: center;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(228, 39%, 23%);
+    display: flex;
+    justify-content: space-evenly;
+    height: 15rem;
+}
+
+footer img {
+    filter: invert(1) brightness(1.1) contrast(1.5);
+
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 9px;
+    margin-top: 3rem;
+}
+
+footer .social li:hover {
+    cursor: pointer;
+    filter: invert(5) sepia(400%) saturate(600%);
+
+}
+
+
+
+footer .links {
+
+    list-style: none;
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+
+
+
+}
+.cards{
+    display: none;
+}
+footer .links a {
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+footer .links ul li a {
+    gap: 15px;
+}
+
+footer .links li :hover {
+    cursor: pointer;
+    color: hsl(12, 88%, 59%);
+}
+
+footer input {
+    color: hsl(0, 0%, 98%);
+    padding: 15px 29px;
+    border-radius: 40px;
+    border: none;
+}
+
+footer button {
+    background-color: hsl(12, 88%, 59%);
+    padding: 15px 10px;
+    color: white;
+    border-radius: 40px;
+    border: none;
+
+}
+
+button:hover {
+    box-shadow: 1px 9px 3px hsl(12, 45%, 64%);
+    cursor: pointer;
+}
+
+.nav-toggle {
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    position: relative;
+    left: 180px;
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #1a1919;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media all and (max-width: 480px) {
+    .section-1 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .list p b {
+        background-color: hsl(12, 73%, 76%);
+    }
+    .numb{
+        background-color: hsl(12, 73%, 76%);
+    }
+
+    .testimonials {
+       display: none;
+    }
+    .cards{
+        display: block;
+        text-align: center;
+    }
+    .section-3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 2%;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: fit-content;
+        padding: 2%;
+    }
+
+    footer .links {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        width: 0;
+       color: white;
+       margin-left: 10rem;
+         flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: -1;
+       
+        
+    }
+
+    .nav-links a {
+        color: hsl(240, 100%, 5%);
+    }
+
+    .nav-links.show {
+        display: flex;
+        height: 35rem;
+        margin-left: 10rem;
+         flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+
+    }
+
+    nav button {
+        display: none;
+    }
+    .mySlides {display:none}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  color: white;
+  background-color: #bbb;
+  border-radius: 90% ;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #e05e08;
+}
+}
